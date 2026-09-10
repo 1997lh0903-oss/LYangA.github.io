@@ -1,13 +1,42 @@
-<!-- 这是HTML5网页声明 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>洛阳安信</title> <!-- 浏览器标签标题 -->
+    <title>我的第一个网页</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 18px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <!-- 网页正文写在这里 -->
-    <h1>你好！</h1>
-    <p>我是洛阳市伤心网友</p>
+    <h1>你好！你有freestyle吗</h1>
+    <p>我是吴亦凡～</p>
+    <button onclick="sayHello()">确定</button>
+
+    <script>
+        function sayHello() {
+            alert("成功晋级 🎉");
+        }
+    </script>
 </body>
-</html
+</html>
